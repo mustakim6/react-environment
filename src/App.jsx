@@ -1,5 +1,6 @@
 import React from "react"
 import './App.css'
+import MovieComponent from "./components/MovieComponent";
 
 
 function App() {
@@ -46,10 +47,43 @@ const pets = [
 ]
 
 
+
+
 return(
 
 <>
 
+
+{/* about reactHooks start*/}
+
+
+
+
+{/* about reactHooks end */}
+
+
+//movie componentApp-04
+ <MovieComponent></MovieComponent>
+
+{/* about component start */}
+ //about component-03
+ <h3>component is a plain old js function</h3>
+ <ul>
+  <li>the function must return something.</li>
+  <li>the something is the "jsx".</li>
+  <li>the component may have data private to itself, we call it "State".</li>
+  <li>the component may have data to share with other components , we call them "Props".</li>
+ </ul>
+
+
+
+{/* about component end */}
+
+
+
+
+{/* my pets app start */}
+//mypetsApp-02
 <div className="App">
 <h1>My Pets {pets.length}</h1>
 <ul className="container">
@@ -75,16 +109,10 @@ return(
   }
 </ul>
 </div>
+{/* my pets app end */}
 
 
-
-
-
-
-
-
-
-//about jsx
+//about jsx-01
 <div>
 
   <h1>{topic} is awesome</h1>
