@@ -4,17 +4,8 @@ import GeneralUsers from "./GeneralUsers";
 import useFetchUsers from "./useFetchUsers";
 
 const CustomHooks = () => {
-    const [users] = useFetchUsers()
     const [username, setUserName] = useState('')
-    
-
-
-
-            
- 
-const userDetails = username ? (users.find((user)=>user.name.toLowerCase().includes(username.toLowerCase())) || null) : null
-  
-
+    const [users, userDetails] = useFetchUsers(username)
 
 
   return (

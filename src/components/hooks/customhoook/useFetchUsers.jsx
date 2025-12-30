@@ -1,7 +1,9 @@
 import React, { useEffect, useState } from 'react';
 
-const useFetchUsers = () => {
+const useFetchUsers = (username) => {
     const [users, setUsers] = useState([])
+    
+    const userDetails = username? users.find( (user)=>user.name.toLowerCase().includes(username.toLowerCase())) || null : null 
 
       useEffect(()=>{
                     fetch('https://jsonplaceholder.typicode.com/users')
@@ -15,7 +17,7 @@ const useFetchUsers = () => {
                      })
       },[])
 
-    return [users];
+    return [users, userDetails];
 };
 
 export default useFetchUsers;
