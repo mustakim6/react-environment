@@ -1,6 +1,8 @@
 import React from "react"
 import './App.css'
 import MovieComponent from "./components/MovieComponent";
+import ReactHooks from "./components/ReactHooks";
+import CustomHooks from "./components/hooks/customhoook/CustomHooks";
 
 
 function App() {
@@ -54,10 +56,16 @@ return(
 <>
 
 
+{/* about custom-Hooks start*/}
+//about reacthooks-06
+<CustomHooks></CustomHooks>
+
+{/* about custom-Hooks end */}
+
+
 {/* about reactHooks start*/}
-
-
-
+//about reacthooks-05
+<ReactHooks></ReactHooks>
 
 {/* about reactHooks end */}
 

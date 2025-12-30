@@ -27,3 +27,62 @@ li{
   display:flex;
   justify-content: center;
 }
+
+
+/* style for color box start */
+
+.colorBox{
+  width:12rem;
+  height: 12rem;
+  margin:6px;
+  border:1px solid black;
+  border-radius: 6px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.colorbtn{
+  margin:6px;
+  padding:3px;
+}
+
+.colorCode{
+  background-color: white;
+  padding:3px 6px;
+  border-radius: 3px;
+  cursor:pointer
+
+}
+
+/* style for color box end */
+
+/* style for  greet-box start */
+  .greetbox{
+    height:100px;
+    max-width:fit-content;
+    padding: 3px 60px;
+    border-radius: 3px;
+    background-color: rgb(8, 141, 203);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+/* style for  greet-box end */
+
+/* style for  showUser start */
+
+.showUser{
+  text-align: center;
+}
+
+.searchBox{
+  padding:6px 16px;
+  margin-bottom: 6px;
+  border-radius: 4px;
+}
+
+/* style for  showUser end */
+
