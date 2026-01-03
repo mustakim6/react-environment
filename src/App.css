@@ -84,5 +84,14 @@ li{
   border-radius: 4px;
 }
 
+.UserInfoBox{
+
+  border: 1px solid red;
+  width:350px;
+  margin:auto;
+  text-align: start;
+  padding: 6px 10px;
+
+}
 /* style for  showUser end */
 
