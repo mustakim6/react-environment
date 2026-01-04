@@ -3,6 +3,8 @@ import './App.css'
 import MovieComponent from "./components/MovieComponent";
 import ReactHooks from "./components/ReactHooks";
 import CustomHooks from "./components/hooks/customhoook/CustomHooks";
+import HigherOrderComponent from "./components/HOC/HigherOrderComponent";
+import VirtualDOM from "./components/VirtualDOM/VirtualDOM";
 
 
 function App() {
@@ -54,6 +56,19 @@ const pets = [
 return(
 
 <>
+
+
+{/* about higher-order-component start*/}
+//about VirtualDOM-08
+<VirtualDOM></VirtualDOM>
+{/* about higher-order-component end*/}
+
+
+{/* about higher-order-component start*/}
+//about higher-order-component-07
+<HigherOrderComponent></HigherOrderComponent>
+{/* about higher-order-component end*/}
+
 
 
 {/* about custom-Hooks start*/}
