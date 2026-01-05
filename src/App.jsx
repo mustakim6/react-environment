@@ -5,6 +5,7 @@ import ReactHooks from "./components/ReactHooks";
 import CustomHooks from "./components/hooks/customhoook/CustomHooks";
 import HigherOrderComponent from "./components/HOC/HigherOrderComponent";
 import VirtualDOM from "./components/VirtualDOM/VirtualDOM";
+import ReactMemo from "./components/reactMemo/ReactMemo";
 
 
 function App() {
@@ -58,10 +59,15 @@ return(
 <>
 
 
-{/* about higher-order-component start*/}
+{/* about ReactMemo start*/}
+//about ReactMemo-09
+<ReactMemo></ReactMemo>
+{/* about ReactMemo end*/}
+
+{/* about VirtualDOM start*/}
 //about VirtualDOM-08
 <VirtualDOM></VirtualDOM>
-{/* about higher-order-component end*/}
+{/* about VirtualDOM end*/}
 
 
 {/* about higher-order-component start*/}

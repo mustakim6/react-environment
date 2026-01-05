@@ -95,3 +95,25 @@ li{
 }
 /* style for  showUser end */
 
+/* style for react-memo app */
+.parentBox{
+  border:3px  solid maroon;
+  border-radius: 6px;
+  width: 400px;
+  height: 400px;
+   margin: 16px;
+  box-shadow: 0px 0px 10px rgb(203, 26, 6) ;
+  text-align: center;
+}
+
+.childBox{
+  border:3px  solid maroon;
+  border-radius: 6px;
+  width: 200px;
+  height: 200px;
+ 
+  box-shadow: 0px 0px 10px rgb(101, 6, 203) ;
+  text-align: center;
+  margin-top: 30px;
+  margin-left: 25%;
+}
