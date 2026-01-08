@@ -117,3 +117,9 @@ li{
   margin-top: 30px;
   margin-left: 25%;
 }
+
+.border{
+  border: 2px solid red;
+  width: 300px;
+  margin: 4px ;
+}

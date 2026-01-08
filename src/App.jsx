@@ -6,6 +6,7 @@ import CustomHooks from "./components/hooks/customhoook/CustomHooks";
 import HigherOrderComponent from "./components/HOC/HigherOrderComponent";
 import VirtualDOM from "./components/VirtualDOM/VirtualDOM";
 import ReactMemo from "./components/reactMemo/ReactMemo";
+import PropsDrill from "./components/propsDrilling/PropsDrill";
 
 
 function App() {
@@ -58,6 +59,11 @@ return(
 
 <>
 
+
+{/* about PropsDrill start*/}
+//about PropsDrill-10
+<PropsDrill></PropsDrill>
+{/* about PropsDrill end*/}
 
 {/* about ReactMemo start*/}
 //about ReactMemo-09
