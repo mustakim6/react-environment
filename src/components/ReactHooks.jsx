@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import '../App.css'
 import EffectHook from "./hooks/EffectHook";
 import RefHook from "./hooks/userefhook/RefHook";
+import ReactUseCallback from "./reactMemo/ReactUseCallback";
+import ReactUsememo from "./reactMemo/ReactUsememo";
 
 const ReactHooks = () => {
 
@@ -56,6 +58,11 @@ const changeColor = ()=>{
 <h3>3. const ref = useRef( initialValue, can be any js value ) hook, {'Returns an object: { current: initialValue }'}</h3>
 <RefHook></RefHook>
 
+<h3>4.useCallback: {'const memoizedFn = useCallback(() => {// function logic }, [dependencies]);'}</h3>
+<ReactUseCallback></ReactUseCallback>
+
+<h3>5.useMemo: {'const memoizedFunctionValue = useMemo(() => {// function logic }, [dependencies]);'}</h3>
+<ReactUsememo></ReactUsememo>
 
 
     </div>
