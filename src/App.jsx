@@ -7,6 +7,7 @@ import HigherOrderComponent from "./components/HOC/HigherOrderComponent";
 import VirtualDOM from "./components/VirtualDOM/VirtualDOM";
 import ReactMemo from "./components/reactMemo/ReactMemo";
 import PropsDrill from "./components/propsDrilling/PropsDrill";
+import ParentComponent from "./components/contextApi/ParentComponent";
 
 
 function App() {
@@ -59,6 +60,16 @@ return(
 
 <>
 
+
+{/* about Redux start*/}
+//about ContextApi-11
+<ParentComponent></ParentComponent>
+{/* about Redux end*/}
+
+{/* about ContextApi start*/}
+//about ContextApi-11
+<ParentComponent></ParentComponent>
+{/* about ContextApi end*/}
 
 {/* about PropsDrill start*/}
 //about PropsDrill-10
